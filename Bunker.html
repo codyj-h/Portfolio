@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <style>
+        body
+        {
+            text-align: center;
+            margin-left: 150px;
+            margin-right: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>test</h1>
+    <p>
+        This was a group project set by Antimatter Games where we had 5 days in order to create a basic bunker scene with interactable elements. For this my team consisted of 1 games programmer, 1 computer science student and 3 modellers. In this project we used blueprints for the functionality. I implemented a keypad on a door that the user can interact with, the ability to pick up and move around objects as well as a widget that can display information about an object such as how to interact with it.
+    </p>
+    <img src="assets/Images/Pickup1.png" style="width: 640px;height: 360px;">
+    <img src="assets/Images/Pickup2.png" style="width: 640px;height: 360px;">
+    <p>
+        This showcases the ability to pick up and move around certain objects in the scene, this is done by calling a line trace and then checking whether or not the actor hit has a tag, if the actor does have a tag the object is set as a child of an item actor within the player blueprint. 
+    </p>
+    <img src="assets/Images/Door1.jpg" style="width: 640px;height: 360px;">
+    <img src="assets/Images/Door2.jpg" style="width: 640px;height: 360px;">
+    <P>
+        This showcases the ability to enter numbers on a keypad, this was done by creating a widget object, then overlaying a keypad model ontop of the widget and then using a widget interaction to call an event bound to each button on the keypad.
+    </P>
+   
+     
+</body>
+<footer>
+    <a aria-label="My Github Profile" target="_blank" href="https://github.com/codyj-h/Bunker">
+        <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+      </a>   
+</footer>
+</html>
